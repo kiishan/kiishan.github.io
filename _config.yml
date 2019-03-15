@@ -22,13 +22,13 @@ url: # the base hostname & protocol for your site e.g. "https://mmistakes.github
 author:
   name: Kishan Kumar
   twitter:
-  picture: https://1drv.ms/u/s!AkkqImAIOYB_kUO8lnKygeoo1L6B
+  picture: "/images/B8AE0981-355C-438E-8480-62AEF55689CC.jpeg"
 twitter_username:
 github_username: kiishan
 logo: https://1drv.ms/u/s!AkkqImAIOYB_kUO8lnKygeoo1L6B # path of site logo, e.g. "/assets/images/logo.png"
-search: # true, false (default)
+search: true # true, false (default)
 search_full_content: false # true, false (default)
-search_provider: # lunr (default), algolia
+search_provider:  # lunr (default), algolia
 algolia:
   application_id: # YOUR_APPLICATION_ID
   index_name: # YOUR_INDEX_NAME
