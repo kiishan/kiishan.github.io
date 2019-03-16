@@ -1,10 +1,13 @@
+---
+published: false
+---
 
 # Artificial Neural Network
 
 
 ## Agenda
 
-<img src="../images/ann/Neuron-figure.svg" width="35%" style="float: right;"/>
+<img src="/images/ann/Neuron-figure.svg" width="35%" style="float: right;"/>
 
 1. Learn basics of ANN
 2. How Neural Net works
@@ -169,4 +172,3 @@ __Convolutional Neural Network (CNN):__ Convolutional Neural Networks are very s
 <img src="/images/ann/recurrent_nn.png" width="15%" style="float: right;"/>
 
 __2. Reccurent Neural Network (RNN):__ In recurrent neural network (RNN), connections between units form a directed cycle (they propagate data forward, but also backwards, from later processing stages to earlier stages). This allows it to exhibit dynamic temporal behavior. Unlike feedforward neural networks, RNNs can use their internal memory to process arbitrary sequences of inputs. This makes them applicable to tasks such as unsegmented, connected handwriting recognition, speech recognition and other general sequence processors.
-
