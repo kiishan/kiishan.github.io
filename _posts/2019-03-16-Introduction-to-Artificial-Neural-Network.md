@@ -4,7 +4,7 @@
 
 ## Agenda
 
-<img src="/images/ann/Neuron-figure.svg" width="35%" style="float: right;"/>
+<img src="../images/ann/Neuron-figure.svg" width="35%" style="float: right;"/>
 
 1. Learn basics of ANN
 2. How Neural Net works
