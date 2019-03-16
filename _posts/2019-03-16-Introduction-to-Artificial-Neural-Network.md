@@ -1,9 +1,14 @@
 ---
 published: false
 ---
-
-# Artificial Neural Network
-
+---
+layout: post
+title: US Salary Summary
+date: 2019-03-16
+published: true
+categories: projects
+image: /images/ann/perceptron.png
+---
 
 ## Agenda
 
