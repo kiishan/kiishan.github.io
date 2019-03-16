@@ -8,6 +8,7 @@ date: 2019-03-16
 published: true
 categories: projects
 image: /images/ann/perceptron.png
+published: true
 ---
 
 ## Agenda
