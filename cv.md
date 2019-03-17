@@ -10,7 +10,7 @@ published: true
 
 ### Experience
 
-#### <font color='red> Software Engineer | BDB Technologies Pvt Ltd </font>
+<font color='red> #### Software Engineer | BDB Technologies Pvt Ltd </font>
 
 Nov 2018 – Present 
 
