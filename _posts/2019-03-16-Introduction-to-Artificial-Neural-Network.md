@@ -127,7 +127,9 @@ __Cost/Error/Loss Function__
 
 There are many available loss functions, and the nature of our problem should dictate our choice of loss function. In this tutorial, we’ll use a simple sum-of-sqaures error as our loss function.
 
+{% raw %}
 $$sum of squares Error = \sum_{i=1}^n (y - \bar{y})^2$$
+{% endraw %}
 
 That is, the sum-of-squares error is simply the sum of the difference between each predicted value and the actual value. The difference is squared so that we measure the absolute value of the difference.
 
