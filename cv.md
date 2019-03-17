@@ -1,6 +1,6 @@
 ---
 layout: page
 title: cv
-permalink: /about/
+permalink: /curriculum vitae/
 published: true
 ---
