@@ -1,7 +1,7 @@
 ---
 layout: page
 title: curriculum vitae
-permalink: /curriculum vitae/
+permalink: /curriculum_vitae/
 published: true
 ---
 
