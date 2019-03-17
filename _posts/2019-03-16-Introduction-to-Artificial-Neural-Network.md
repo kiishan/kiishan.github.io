@@ -1,12 +1,9 @@
 ---
-published: true
----
----
 layout: post
-title: US Salary Summary
+title: Introduction To Artificial Neural Network
 date: 2019-03-16
 published: true
-categories: projects
+categories: tutorials
 image: /images/ann/perceptron.png
 ---
 
