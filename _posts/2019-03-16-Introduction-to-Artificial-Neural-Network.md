@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Introduction To Artificial Neural Network
-date: 2019-03-16
+date: {}
 published: true
 categories: tutorials
 image: /images/ann/perceptron.png
