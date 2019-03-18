@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Introduction To Artificial Neural Network
-date: 2019-03-16T00:00:00.000Z
+date: {}
 published: true
 categories: tutorials
 ---
@@ -121,7 +121,7 @@ Each iteration of the training process consists of the following steps:
 
 The sequential graph below illustrates the process.
 
-<img src="/images/ann/feedforward_backpropagation.png" width="80%"/>
+<img src="/images/ann/feedforward_backpropagation.png" />
 
 __Cost/Error/Loss Function__
 
@@ -168,7 +168,7 @@ __Multi-layer perceptron (MLP):__ This class of networks consists of multiple la
 
 __Convolutional Neural Network (CNN):__ Convolutional Neural Networks are very similar to ordinary Neural Networks, they are made up of neurons that have learnable weights and biases. In convolutional neural network (CNN, or ConvNet or shift invariant or space invariant) the unit connectivity pattern is inspired by the organization of the visual cortex, Units respond to stimuli in a restricted region of space known as the receptive field. Receptive fields partially overlap, over-covering the entire visual field. Unit response can be approximated mathematically by a convolution operation. They are variations of multilayer perceptrons that use minimal preprocessing. Their wide applications is in image and video recognition, recommender systems and natural language processing. CNNs requires large data to train on.
 
-<img src="/images/ann/convNet.png" width="70%"/>
+<img src="/images/ann/convNet.png"/>
 
 
 <img src="/images/ann/recurrent_nn.png" width="15%" style="float: right;"/>
