@@ -29,11 +29,16 @@ __Architecture:__
 - 1st and 2nd hidden layer will have Relu and sigmoid respectively as activation functions. Final layer will have Softmax.
 - Error is calculated using cross-entropy.
 
-<img src="./images/backpropagation_network.png" width="100%"/>
+<img src="./images/ann/backpropagation_network.png" width="100%"/>
 
 ### Initializing Network
 
+
+<img src="http://latex.codecogs.com/svg.latex?Input = \begin{bmatrix} 0.1 & 0.2 & 0.7 \end{bmatrix}" border="0"/>
+
 $$ Input = \begin{bmatrix} 0.1 & 0.2 & 0.7 \end{bmatrix}$$
+
+<img src="http://latex.codecogs.com/svg.latex?W_{ij}  = \begin{bmatrix} W_{i1j1} & W_{i1j2} & W_{i1j3} \\ W_{i2j1} & W_{i2j2} & W_{i2j3} \\ W_{i3j1} & W_{i3j2} & W_{i3j3} \end{bmatrix} = \begin{bmatrix} 0.1 & 0.2 & 0.3 \\ 0.3 & 0.2 & 0.7 \\ 0.4 & 0.3 & 0.9 \end{bmatrix}" border="0"/>
 
 $$ W_{ij}  = \begin{bmatrix} W_{i1j1} & W_{i1j2} & W_{i1j3} \\ W_{i2j1} & W_{i2j2} & W_{i2j3} \\ W_{i3j1} & W_{i3j2} & W_{i3j3} \end{bmatrix} = \begin{bmatrix} 0.1 & 0.2 & 0.3 \\ 0.3 & 0.2 & 0.7 \\ 0.4 & 0.3 & 0.9 \end{bmatrix}$$
 
@@ -45,7 +50,7 @@ $$ Output = \begin{bmatrix} 1.0 & 0.0 & 0.0 \end{bmatrix}$$
 
 ____________________________________________________________________________________________________________________________
 
-<img src="./images/backpropagation_network_l1.png" width="25%" style="float: right;"/>
+<img src="./images/ann/backpropagation_network_l1.png" width="25%" style="float: right;"/>
 
 __layer-1 Matrix Operation:__
 
@@ -67,7 +72,7 @@ $ \begin{bmatrix} h1_{out1} & h1_{out2} & h1_{out3} \end{bmatrix} = \begin{bmatr
 ________________________________________________________________________________________________________________________
 
 
-<img src="./images/backpropagation_network_l2.png" width="25%" style="float: right;"/>
+<img src="./images/ann/backpropagation_network_l2.png" width="25%" style="float: right;"/>
 
 __layer-2 Matrix Operation:__
 
@@ -88,7 +93,7 @@ $ \begin{bmatrix} h2_{out1} & h2_{out2} & h2_{out3} \end{bmatrix} = \begin{bmatr
 ________________________________________________________________________________________________________________________
 
 
-<img src="./images/backpropagation_network_l3.png" width="25%" style="float: right;"/>
+<img src="./images/ann/backpropagation_network_l3.png" width="25%" style="float: right;"/>
 
 
 
@@ -163,7 +168,7 @@ $$ \frac{\partial (Softmax)}{\partial x_{1}} = (\mathrm{e}^{x_{1}} \times (\math
 
 ## BackPropagating the error - (Hidden Layer2 - Output Layer) Weights
 
-<img src="./images/backprop_layer3.png" width="95%" />
+<img src="./images/ann/backprop_layer3.png" width="95%" />
 
 #### Lets calculate a few derviates upfront so these become handy and we can reuse them whenever necessary. 
 
@@ -355,7 +360,7 @@ W_{k3l1} - (lr * \delta W_{k3l1}) & W_{k3l2} - (lr *\delta W_{k3l2}) & W_{k3l3} 
 
 ## BackPropagating the error - (Hidden Layer1 - Hidden Layer2)  Weights
 
-<img src="./images/backprop_layer2.png" width="75%" />
+<img src="./images/ann/backprop_layer2.png" width="75%" />
 
 #### Lets calculate a few handy derviatives before we actually calculate the error derviatives wrt Weights in this layer. 
 
@@ -621,7 +626,7 @@ W_{j3k1} - (lr * \delta W_{j3k1}) & W_{j3k2} - (lr *\delta W_{j3k2}) & W_{j3k3} 
 
 ## BackPropagating the error - (Input Layer - Hidden Layer1)  Weights
 
-<img src="./images/backprop_layer1.png" width="75%" />
+<img src="./images/ann/backprop_layer1.png" width="75%" />
 
 #### Lets calculate a few handy derviatives before we actually calculate the error derviatives wrt Weights in this layer. 
 
