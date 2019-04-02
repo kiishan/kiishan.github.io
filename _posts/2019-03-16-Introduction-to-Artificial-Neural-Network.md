@@ -7,6 +7,10 @@ categories: Deep Learning
 image: /images/ann/Neuron-figure.svg
 ---
 
+An Artificial Neural Network (ANN) is an information processing paradigm that is inspired by the biological nervous systems.
+
+The key element of this paradigm is the novel structure of the information processing system. It is composed of a large number of highly interconnected processing elements (neurones) working in unison to solve specific problems. 
+
 ## Agenda
 
 <img src="/images/ann/Neuron-figure.svg" width="35%" style="float: right;"/>
@@ -24,11 +28,6 @@ image: /images/ann/Neuron-figure.svg
 
 
 ### 1. Basics of Artificial Neural Networks
-
-
-An Artificial Neural Network (ANN) is an information processing paradigm that is inspired by the biological nervous systems.
-
-The key element of this paradigm is the novel structure of the information processing system. It is composed of a large number of highly interconnected processing elements (neurones) working in unison to solve specific problems. 
 
 ANNs, like people, learn by example. An ANN is configured for a specific application, such as pattern recognition or data classification, through a learning process. Learning in biological systems involves adjustments to the synaptic connections that exist between the neurones. This is true of ANNs as well.
 
