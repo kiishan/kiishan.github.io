@@ -1,3 +1,11 @@
+---
+layout: post
+title: Introduction To Artificial Neural Network
+date: {}
+published: true
+categories: Deep Learning
+image: /images/regression/smpl_linear_reg.png
+---
 
 # Simple Linear Regression
 ---
