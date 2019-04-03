@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Introduction To Artificial Neural Network
-date: {}
+date: 2019-03-16
 published: true
 categories: Deep Learning
 image: /images/ann/Neuron-figure.svg
