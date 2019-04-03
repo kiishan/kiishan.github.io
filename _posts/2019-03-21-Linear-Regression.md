@@ -199,7 +199,7 @@ The coefficient of determination (denoted by R2) is a key output of regression a
 
 The formula for computing the coefficient of determination for a linear regression model with one independent variable is given below.
 
-<img src="http://latex.codecogs.com/svg.latex?R^2 =  \frac{2}{N} * \sum \frac{(x_i - x) * (y_i - y)}{(\sigma x * \sigma y)}"border="0"/>
+<img src="http://latex.codecogs.com/svg.latex?R^2 =  \frac{2}{N} * \sum \frac{(x_i - x) * (y_i - y)}{(\sigma x * \sigma y)}" border="0"/>
 
 where N is the number of observations used to fit the model, Σ is the summation symbol, xi is the x value for observation i, x is the mean x value, yi is the y value for observation i, y is the mean y value, σx is the standard deviation of x, and σy is the standard deviation of y.
 
