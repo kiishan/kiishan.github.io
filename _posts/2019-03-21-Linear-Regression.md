@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Introduction To Artificial Neural Network
+title: Simple Linear Regression
 date: 2019-03-21
 published: true
 categories: Deep Learning
-image: /images/regression/smpl_linear_reg.png
+read_time: true
 ---
 
 # Simple Linear Regression
