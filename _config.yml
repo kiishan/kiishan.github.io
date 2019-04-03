@@ -78,8 +78,8 @@ exclude:
 defaults:
   # _posts
   - scope:
-      path: "docs/_posts"
+      path: "_posts"
       type: posts
     values:
       layout: post
-      read_time: true
+      read_time: false
