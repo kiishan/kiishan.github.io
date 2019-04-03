@@ -114,7 +114,7 @@ __How__:  we fit a curve / line to the data points, in such a manner that the di
 ### Ordinary Least Squares Method
 ---
 
-Aim is to model equation of line : <img src="http://latex.codecogs.com/svg.latex?y(pred) = b_0 + b_1x" border="0"/>
+Aim is to model equation of line : <img src="http://latex.codecogs.com/svg.latex?y(pred) = b_0 + b_1x" border="0"/>  
 step 1: calculate mean of independent variable (x) : <img src="http://latex.codecogs.com/svg.latex?\bar{x} = \frac{\sum_{i=1}^n (x_i)}{n}" border="0"/>
 step 2: calculate mean of dependent variable (y) &nbsp;  : <img src="http://latex.codecogs.com/svg.latex?\bar{y} = \frac{\sum_{i=1}^n (y_i)}{n}" border="0"/>  
 setp 3: calculate slope of line $b_1$) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; : <img src="http://latex.codecogs.com/svg.latex?b_1 = \frac{\sum_{i=1}^n (x_i - \bar{x})(y_i - \bar{y})}{\sum_{i=1}^n (x_i - \bar{x})^2}" border="0"/>  
@@ -188,7 +188,7 @@ This tells how much the data point move around the mean.
 
 <img src="http://latex.codecogs.com/svg.latex?R^2 = 1- \frac{SSE}{SSTO}" border="0"/>
 
-__4. The Coefficient of Determination ($R^2$) R-Square__   
+__4. The Coefficient of Determination (<img src="http://latex.codecogs.com/svg.latex?R^2" border="0"/>) R-Square__   
 
 The coefficient of determination (denoted by R2) is a key output of regression analysis. It is interpreted as the proportion of the variance in the dependent variable that is predictable from the independent variable.
 
