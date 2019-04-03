@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Understanding Back Propagation
-date: {}
+date: 2019-03-19
 published: true
 categories: tutorials
 ---
