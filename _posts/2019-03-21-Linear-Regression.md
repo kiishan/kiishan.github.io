@@ -115,10 +115,10 @@ __How__:  we fit a curve / line to the data points, in such a manner that the di
 ---
 
 Aim is to model equation of line : <img src="http://latex.codecogs.com/svg.latex?y(pred) = b_0 + b_1x" border="0"/>  
-step 1: calculate mean of independent variable (x) : <img src="http://latex.codecogs.com/svg.latex?\bar{x} = \frac{\sum_{i=1}^n (x_i)}{n}" border="0"/>
-step 2: calculate mean of dependent variable (y) &nbsp;  : <img src="http://latex.codecogs.com/svg.latex?\bar{y} = \frac{\sum_{i=1}^n (y_i)}{n}" border="0"/>  
-setp 3: calculate slope of line $b_1$) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; : <img src="http://latex.codecogs.com/svg.latex?b_1 = \frac{\sum_{i=1}^n (x_i - \bar{x})(y_i - \bar{y})}{\sum_{i=1}^n (x_i - \bar{x})^2}" border="0"/>  
-Step 4: calculate intercept of line ($b_0$) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;: <img src="http://latex.codecogs.com/svg.latex?b_0 = \bar{y} - b_1\bar{x}" border="0"/>
+step 1: calculate mean of independent variable (x) : <img src="http://latex.codecogs.com/svg.latex?\bar{x} = \frac{\sum_{i=1}^n (x_i)}{n}" border="0"/>  
+step 2: calculate mean of dependent variable (y) &nbsp;  : <img src="http://latex.codecogs.com/svg.latex?\bar{y} = \frac{\sum_{i=1}^n (y_i)}{n}" border="0"/>    
+setp 3: calculate slope of line $b_1$) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; : <img src="http://latex.codecogs.com/svg.latex?b_1 = \frac{\sum_{i=1}^n (x_i - \bar{x})(y_i - \bar{y})}{\sum_{i=1}^n (x_i - \bar{x})^2}" border="0"/>    
+Step 4: calculate intercept of line ($b_0$) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;: <img src="http://latex.codecogs.com/svg.latex?b_0 = \bar{y} - b_1\bar{x}" border="0"/>  
 
 Ordinary Least Square method looks simple and computation is easy. But, this OLS method will only work for a univariate dataset which is single independent variables and single dependent variables. Multi-variate dataset contains a single independent variables set and multiple dependent variables sets, require us to use a machine learning algorithm called &nbsp; “Gradient Descent”.
 
