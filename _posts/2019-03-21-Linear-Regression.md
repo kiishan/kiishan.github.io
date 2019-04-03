@@ -12,13 +12,15 @@ image: /images/regression/smpl_linear_reg.png
 
 Regression is a technique used to model and analyze the relationships between variables and often times how they contribute and are related to producing a particular outcome together. 
 
-<img src="./images/smpl_linear_reg.png" width="35%" style="float: right;"/>
+<img src="/images/regression/smpl_linear_reg.png" width="35%" style="float: right;"/>
 
 This technique is used for forecasting, time series modelling and finding the causal effect relationship between the variables.
 
 Establishes a relationship between dependent variable (Y - continuous) and one or more independent variables (X - continuous or discrete) using a best fit straight line (also known as regression line).
 
-It is represented by an equation $Y=c + m * X + e $, where `c` is intercept, `m` is slope of the line and `e` is error term. This equation can be used to predict the value of target variable based on given predictor variable(s).
+
+
+It is represented by an equation <img src="http://latex.codecogs.com/svg.latex?Y=c + m * X + e" border="0"/> , where `c` is intercept, `m` is slope of the line and `e` is error term. This equation can be used to predict the value of target variable based on given predictor variable(s).
 
 __How to obtain best fit line (Value of c and m)?__
 
@@ -61,7 +63,7 @@ __How__:  we fit a curve / line to the data points, in such a manner that the di
     - An additive relationship suggests that the effect of X¹ on Y is independent of other variables.
     - The linearity assumption can best be tested with scatter plots.
     
-<img src="./images/qqplot-comparison.png" width="60%" style="float: right;"/>
+<img src="/images/regression/qqplot-comparison.png" width="60%" style="float: right;"/>
 
 2. The linear regression analysis requires all variables to be __multivariate normal__. 
 
@@ -92,7 +94,7 @@ __How__:  we fit a curve / line to the data points, in such a manner that the di
     - For instance, this typically occurs in time series data like stock prices, where the price is not independent from the previous price.
     - While a scatterplot allows you to check for autocorrelations, you can test the linear regression model for autocorrelation with the Durbin-Watson test.  Durbin-Watson’s d tests the null hypothesis that the residuals are not linearly auto-correlated.  While d can assume values between 0 and 4, values around 2 indicate no autocorrelation.  As a rule of thumb values of 1.5 < d < 2.5 show that there is no auto-correlation in the data. However, the Durbin-Watson test only analyses linear autocorrelation and only between direct neighbors, which are first order effects.
 
-<img src="./images/homoscedasticity_heteroscedasticity.jpg" width="60%" style="float: right;"/>
+<img src="/images/regression/homoscedasticity_heteroscedasticity.jpg" width="60%" style="float: right;"/>
 
 5. The last assumption of the linear regression analysis is __homoscedasticity__ (homogeneity of variance).  
 
@@ -112,12 +114,11 @@ __How__:  we fit a curve / line to the data points, in such a manner that the di
 ### Ordinary Least Squares Method
 ---
 
-Aim is to model equation of line : $ y(pred) = b_0 + b_1x$
-
-step 1: calculate mean of independent variable (x) : $ \bar{x} = \frac{\sum_{i=1}^n (x_i)}{n} $  
-step 2: calculate mean of dependent variable (y) &nbsp;  : $ \bar{y} = \frac{\sum_{i=1}^n (y_i)}{n} $  
-setp 3: calculate slope of line ($b_1$) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; : $ b_1 = \frac{\sum_{i=1}^n (x_i - \bar{x})(y_i - \bar{y})}{\sum_{i=1}^n (x_i - \bar{x})^2} $  
-Step 4: calculate intercept of line ($b_0$) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;: $b_0 = \bar{y} - b_1\bar{x}$  
+Aim is to model equation of line : <img src="http://latex.codecogs.com/svg.latex?y(pred) = b_0 + b_1x" border="0"/>
+step 1: calculate mean of independent variable (x) : <img src="http://latex.codecogs.com/svg.latex?\bar{x} = \frac{\sum_{i=1}^n (x_i)}{n}" border="0"/>
+step 2: calculate mean of dependent variable (y) &nbsp;  : <img src="http://latex.codecogs.com/svg.latex?\bar{y} = \frac{\sum_{i=1}^n (y_i)}{n}" border="0"/>  
+setp 3: calculate slope of line $b_1$) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; : <img src="http://latex.codecogs.com/svg.latex?b_1 = \frac{\sum_{i=1}^n (x_i - \bar{x})(y_i - \bar{y})}{\sum_{i=1}^n (x_i - \bar{x})^2}" border="0"/>  
+Step 4: calculate intercept of line ($b_0$) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;: <img src="http://latex.codecogs.com/svg.latex?b_0 = \bar{y} - b_1\bar{x}" border="0"/>
 
 Ordinary Least Square method looks simple and computation is easy. But, this OLS method will only work for a univariate dataset which is single independent variables and single dependent variables. Multi-variate dataset contains a single independent variables set and multiple dependent variables sets, require us to use a machine learning algorithm called &nbsp; “Gradient Descent”.
 
@@ -133,11 +134,11 @@ We will use the Mean Squared Error function to calculate the loss. There are thr
 2. Square this difference.
 3. Find the mean of the squares for every value in X.
 
-$$ E = \frac{1}{n} \sum_{i=0}^n (y_i - \bar{y_i})^2 $$
+<img src="http://latex.codecogs.com/svg.latex?E = \frac{1}{n} \sum_{i=0}^n (y_i - \bar{y_i})^2" border="0"/>
 
 Here yᵢ is the actual value and ȳᵢ is the predicted value. Lets substitute the value of ȳᵢ:
 
-$$ E = \frac{1}{n} \sum_{i=0}^n (y_i - (mx_i+c))^2 $$
+<img src="http://latex.codecogs.com/svg.latex?E = \frac{1}{n} \sum_{i=0}^n (y_i - (mx_i+c))^2 " border="0"/>
 
 So we square the error and find the mean. hence the name Mean Squared Error. Now that we have defined the loss function, lets get into the interesting part — minimizing it and finding m and c.
 
@@ -148,19 +149,17 @@ Let’s try applying gradient descent to m and c and approach it step by step:
 
 2. Calculate the partial derivative of the loss function with respect to m, and plug in the current values of x, y, m and c in it to obtain the derivative value D.
 
-$$ D_m = \frac{1}{n} \sum_{i=0}^n 2(y_i - (mx_i+c))(-x_i) $$
+<img src="http://latex.codecogs.com/svg.latex?D_m = \frac{1}{n} \sum_{i=0}^n 2(y_i - (mx_i+c))(-x_i)" border="0"/>
 
-$$ D_m = \frac{-2}{n} \sum_{i=0}^n x_i(y_i - \bar{y_i}) $$
-
+<img src="http://latex.codecogs.com/svg.latex?D_m = \frac{-2}{n} \sum_{i=0}^n x_i(y_i - \bar{y_i})" border="0"/>
     - Dₘ is the value of the partial derivative with respect to m. Similarly lets find the partial derivative with respect to c, Dc :
 
-$$ D_c = \frac{-2}{n} \sum_{i=0}^n (y_i - \bar{y_i}) $$
-
+<img src="http://latex.codecogs.com/svg.latex?D_c = \frac{-2}{n} \sum_{i=0}^n (y_i - \bar{y_i})" border="0"/>
 
 3. Now we update the current value of m and c using the following equation:
 
-$$ m= m-l*D_m $$
-$$ c= c-l*D_c $$
+<img src="http://latex.codecogs.com/svg.latex?m= m-l*D_m" border="0"/>
+<img src="http://latex.codecogs.com/svg.latex?c= c-l*D_c" border="0"/>
 
 4. We repeat this process until our loss function is a very small value or ideally 0 (which means 0 error or 100% accuracy). The value of m and c that we are left with now will be the optimum values.
 
@@ -173,24 +172,21 @@ __1. Regression sum of squares (SSR)__
 
 This gives information about how far estimated regression line is from the horizontal ‘no relationship’ line (average of actual output).
 
-$$ Error = \sum_{i=1}^n (Predected\:output - Average\:of\:actual\:output)^2$$ 
+<img src="http://latex.codecogs.com/svg.latex?Error = \sum_{i=1}^n (Predected\:output - Average\:of\:actual\:output)^2" border="0"/>
 
 __2. Sum of Squared error (SSE)__
 
 How much the target value varies around the regression line (predicted value).
-
-$$ Error = \sum_{i=1}^n (Actual\:output - Predected\:output)^2$$ 
-
+ 
+<img src="http://latex.codecogs.com/svg.latex?Error = \sum_{i=1}^n (Actual\:output - Predected\:output)^2" border="0"/>
 
 __3. Total sum of squares (SSTO)__
 
 This tells how much the data point move around the mean.
+ 
+<img src="http://latex.codecogs.com/svg.latex?Error = \sum_{i=1}^n (Actual\:output - Average\:of\:actual\:output)^2" border="0"/>
 
-$$ Error = \sum_{i=1}^n (Actual\:output - Average\:of\:actual\:output)^2$$ 
-
-
-$$ R^2 = 1- \frac{SSE}{SSTO} $$
-
+<img src="http://latex.codecogs.com/svg.latex?R^2 = 1- \frac{SSE}{SSTO}" border="0"/>
 
 __4. The Coefficient of Determination ($R^2$) R-Square__   
 
@@ -203,7 +199,7 @@ The coefficient of determination (denoted by R2) is a key output of regression a
 
 The formula for computing the coefficient of determination for a linear regression model with one independent variable is given below.
 
-$$ R^2 =  \frac{2}{N} * \sum \frac{(x_i - x) * (y_i - y)}{(\sigma x * \sigma y)} $$
+<img src="http://latex.codecogs.com/svg.latex?R^2 =  \frac{2}{N} * \sum \frac{(x_i - x) * (y_i - y)}{(\sigma x * \sigma y)}" border="0"/>
 
 where N is the number of observations used to fit the model, Σ is the summation symbol, xi is the x value for observation i, x is the mean x value, yi is the y value for observation i, y is the mean y value, σx is the standard deviation of x, and σy is the standard deviation of y.
 
@@ -212,7 +208,7 @@ __5. Correlation co-efficient (r)__
 
 This is related to value of ‘r-squared’ which can be observed from the notation itself. It ranges from -1 to 1.
 
-$$ r = \pm \sqrt{R^2}$$
+<img src="http://latex.codecogs.com/svg.latex?r = \pm \sqrt{R^2}" border="0"/>
 
 If the value of b1 is negative, then ‘r’ is negative whereas if the value of ‘b1’ is positive then, ‘r’ is positive. It is unitless.
 
@@ -220,9 +216,3 @@ If the value of b1 is negative, then ‘r’ is negative whereas if the value of
 __Is the range of R-Square always between 0 to 1?__
 
 Value of R2 may end up being negative if the regression line is made to pass through a point forcefully. This will lead to forcefully making regression line to pass through the origin (no intercept) giving an error higher than the error produced by the horizontal line. This will happen if the data is far away from the origin.
-
-
-
-
-`<img src="http://latex.codecogs.com/svg.latex?sum \: of \: square Error = \sum_{i=1}^n (y - \bar{y})^2" border="0"/>`
-
