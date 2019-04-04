@@ -1,9 +1,9 @@
 ---
 layout: post
 title: Simple Linear Regression
-date: 2019-03-21
+date: 2019-03-21T00:00:00.000Z
 published: true
-categories: Deep Learning
+categories: Machine Learning
 read_time: true
 ---
 
