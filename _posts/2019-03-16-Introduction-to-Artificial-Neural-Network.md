@@ -5,6 +5,7 @@ date: 2019-03-16
 published: true
 categories: Deep Learning
 image: /images/ann/Neuron-figure.svg
+read_time: true
 ---
 
 An Artificial Neural Network (ANN) is an information processing paradigm that is inspired by the biological nervous systems.
