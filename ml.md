@@ -5,6 +5,6 @@ title: Machine Learning
 published: true
 ---
 
-![](/images/cv.png)
+![](/images/pyth-ml.jpg)
 
 Articles and posts for Machine Learning
