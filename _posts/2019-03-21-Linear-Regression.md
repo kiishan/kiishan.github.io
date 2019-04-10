@@ -1,15 +1,11 @@
 ---
 layout: post
 title: Simple Linear Regression
-date: 2019-03-21T00:00:00.000Z
+date: {}
 published: true
 categories: Machine Learning
 read_time: true
 ---
-
-# Simple Linear Regression
----
-
 Regression is a technique used to model and analyze the relationships between variables and often times how they contribute and are related to producing a particular outcome together. 
 
 <img src="/images/regression/smpl_linear_reg.png" width="35%" style="float: right;"/>
