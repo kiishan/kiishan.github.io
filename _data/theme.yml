@@ -36,8 +36,8 @@ google_fonts:
 navigation_pages:
   - about.md
   - projects.md
-  - ml.md
-  - dl.md
-  - opencv.md
-  - nlp.md
   - cv.md
+  #- ml.md
+  #- dl.md
+  #- opencv.md
+  #- nlp.md
