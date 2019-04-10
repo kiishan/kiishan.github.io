@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Simple Linear Regression
-date: {}
+date: 2019-03-21T00:00:00.000Z
 published: true
 categories: Machine Learning
 read_time: true
