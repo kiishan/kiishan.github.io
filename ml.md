@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: home
 title: Machine Learning
 published: true
 ---
