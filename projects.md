@@ -1,7 +1,7 @@
 ---
 layout: posts
 paginate: True
-sub_title: Projects
+title: Projects
 published: true
 ---
 
