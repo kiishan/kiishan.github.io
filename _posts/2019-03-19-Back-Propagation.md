@@ -27,7 +27,7 @@ __Architecture:__
 - 1st and 2nd hidden layer will have Relu and sigmoid respectively as activation functions. Final layer will have Softmax.
 - Error is calculated using cross-entropy.
 
-<img src="./images/ann/backpropagation_network.png" width="100%"/>
+<img src="/images/ann/backpropagation_network.png" width="100%"/>
 
 ### Initializing Network
 
@@ -44,9 +44,9 @@ __Architecture:__
 
 <img src="http://latex.codecogs.com/svg.latex? Output = \begin{bmatrix} 1.0 & 0.0 & 0.0 \end{bmatrix}" border="0"/>
 
-____________________________________________________________________________________________________________________________
+---
 
-<img src="./images/ann/backpropagation_network_l1.png" width="25%" style="float: right;"/>
+<img src="/images/ann/backpropagation_network_l1.png" width="25%" style="float: right;"/>
 
 __layer-1 Matrix Operation:__
 
@@ -65,10 +65,10 @@ __layer-1 Example:__
 <img src="http://latex.codecogs.com/svg.latex? \begin{bmatrix} h1_{out1} & h1_{out2} & h1_{out3} \end{bmatrix} = \begin{bmatrix} 1.35 & 1.27 & 1.8 \end{bmatrix} " border="0"/>
 
 
-________________________________________________________________________________________________________________________
+---
 
 
-<img src="./images/ann/backpropagation_network_l2.png" width="25%" style="float: right;"/>
+<img src="/images/ann/backpropagation_network_l2.png" width="25%" style="float: right;"/>
 
 __layer-2 Matrix Operation:__
 
@@ -86,10 +86,10 @@ __layer-2 Example:__
 
 <img src="http://latex.codecogs.com/svg.latex? \begin{bmatrix} h2_{out1} & h2_{out2} & h2_{out3} \end{bmatrix} = \begin{bmatrix} 0.938 & 0.94 & 0.98 \end{bmatrix} " border="0"/>
 
-________________________________________________________________________________________________________________________
+---
 
 
-<img src="./images/ann/backpropagation_network_l3.png" width="25%" style="float: right;"/>
+<img src="/images/ann/backpropagation_network_l3.png" width="25%" style="float: right;"/>
 
 __layer-3 Matrix Operation:__
 
@@ -108,8 +108,7 @@ __layer-3 Example:__
 <img src="http://latex.codecogs.com/svg.latex? \begin{bmatrix} O_{out1} & O_{out2} & O_{out3} \end{bmatrix} = \begin{bmatrix} 0.19858 & 0.28559 & 0.51583 \end{bmatrix}" border="0"/>
 
 
-________________________________________________________________________________________________________________________
-
+---
 
 ## Analysis:
 
@@ -127,7 +126,7 @@ To calculate error lets use cross-entropy
 <img src="http://latex.codecogs.com/svg.latex? \frac{\partial (1/(1+\mathrm{e}^{-x}))}{\partial x} = 1/(1+\mathrm{e}^{-x}) \times (1- 1/(1+\mathrm{e}^{-x}))" border="0"/>
 
 <img src="http://latex.codecogs.com/svg.latex?\frac{\partial Sigmoid}{\partial x} = Sigmoid \times (1- Sigmoid)" border="0"/>
-_____________________________________________________________________________________________________________________________
+---
 
 ### Relu
 
@@ -136,7 +135,7 @@ ________________________________________________________________________________
 <img src="http://latex.codecogs.com/svg.latex?\ if x >0 , \frac{\partial (relu)}{\partial x} = 1" border="0"/>
 
 <img src="http://latex.codecogs.com/svg.latex?\ Otherwise , \frac{\partial (relu)}{\partial x} = 0" border="0"/>
-_____________________________________________________________________________________________________________________________
+---
 
 ### Softmax operation 
 
