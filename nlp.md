@@ -1,7 +1,7 @@
 ---
 layout: home
 paginate: True
-title: Natural Language Processing
+title: NLP
 published: true
 ---
 
