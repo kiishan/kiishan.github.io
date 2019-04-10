@@ -366,7 +366,7 @@ _{out1}}{\partial h2_{in1}} * \frac{\partial h2_{in1}}{\partial W_{j3k1}}
 \delta W_{jk} =  \begin{bmatrix}
 \frac{\partial E_{total}}{\partial W_{j1k1}} & \frac{\partial E_{total}}{\partial W_{j1k2}} & \frac{\partial E_{total}}{\partial W_{j1k3}} \\
 \frac{\partial E_{total}}{\partial W_{j2k1}} & \frac{\partial E_{total}}{\partial W_{j2k2}} & \frac{\partial E_{total}}{\partial W_{j2k3}} \\
-\frac{\partial E_{total}}{\partial W_{j3k1}} & \frac{\partial E_{total}}{\partial W_{j3k2}} & \frac{\partial E_{total}}{\partial W_{j3k3}} \\ \end{bmatrix}  =   \begin{bmatrix}
+\frac{\partial E_{total}}{\partial W_{j3k1}} & \frac{\partial E_{total}}{\partial W_{j3k2}} & \frac{\partial E_{total}}{\partial W_{j3k3}} \\ \end{bmatrix}  = " border="0"/> <img src="http://latex.codecogs.com/svg.latex? \begin{bmatrix}
 \frac{\partial E_{total}}{\partial h2_{out1}} * \frac{\partial h2_{out1}}{\partial h2_{in1}} * \frac{\partial h2_{in1}}{\partial W_{j1k1}} & \frac{\partial E_{total}}{\partial h2_{out2}} * \frac{\partial h2
 _{out2}}{\partial h2_{in2}} * \frac{\partial h2_{in2}}{\partial W_{j1k2}}& \frac{\partial E_{total}}{\partial h2_{out3}} * \frac{\partial h2
 _{out3}}{\partial h2_{in3}} * \frac{\partial h2_{in3}}{\partial W_{j1k3}} \\
@@ -406,7 +406,7 @@ _{out3}}{\partial h2_{in3}} * \frac{\partial h2_{in3}}{\partial W_{j3k3}} \\ \en
  \begin{bmatrix}
 \frac{\partial E_{total}}{\partial h2_{out1}}  \\
 \frac{\partial E_{total}}{\partial h2_{out2}}   \\
-\frac{\partial E_{total}}{\partial h2_{out3}} \\ \end{bmatrix}  =   \begin{bmatrix}
+\frac{\partial E_{total}}{\partial h2_{out3}} \\ \end{bmatrix}  =   " border="0"/> <img src="http://latex.codecogs.com/svg.latex? \begin{bmatrix}
 (\frac{\partial E_{1}}{\partial O_{out1}} * \frac{\partial O_{out1}}{\partial O_{in1}} * \frac{\partial O_{in1}}{\partial h2_{out1}}) + (\frac{\partial E_{2}}{\partial O_{out2}} * \frac{\partial O_{out2}}{\partial O_{in2}} * \frac{\partial O_{in2}}{\partial h2_{out1}}) + ( \frac{\partial E_{3}}{\partial O_{out3}} * \frac{\partial O_{out3}}{\partial O_{in3}} * \frac{\partial O_{in3}}{\partial h2_{out1}})\\
 (\frac{\partial E_{1}}{\partial O_{out1}} * \frac{\partial O_{out1}}{\partial O_{in1}} * \frac{\partial O_{in1}}{\partial h2_{out2}}) + (\frac{\partial E_{2}}{\partial O_{out2}} * \frac{\partial O_{out2}}{\partial O_{in2}} * \frac{\partial O_{in2}}{\partial h2_{out2}}) + (\frac{\partial E_{3}}{\partial O_{out3}} * \frac{\partial O_{out3}}{\partial O_{in3}} * \frac{\partial O_{in3}}{\partial h2_{out2}})\\
 (\frac{\partial E_{1}}{\partial O_{out1}} * \frac{\partial O_{out1}}{\partial O_{in1}} * \frac{\partial O_{in1}}{\partial h2_{out3}}) + (\frac{\partial E_{2}}{\partial O_{out2}} * \frac{\partial O_{out2}}{\partial O_{in2}} * \frac{\partial O_{in2}}{\partial h2_{out3}}) + (\frac{\partial E_{3}}{\partial O_{out3}} * \frac{\partial O_{out3}}{\partial O_{in3}} * \frac{\partial O_{in3}}{\partial h2_{out3}})\\ \end{bmatrix} 
@@ -418,7 +418,7 @@ __Again the first two values are already calculated by us when dealing with derv
  \begin{bmatrix}
 \frac{\partial O_{inl}}{\partial h2_{out1}} & \frac{\partial O_{in2}}{\partial h2_{out1}} & \frac{\partial O_{in3}}{\partial h2_{out1}} \\
 \frac{\partial O_{inl}}{\partial h2_{out2}} & \frac{\partial O_{in2}}{\partial h2_{out2}} & \frac{\partial O_{in3}}{\partial h2_{out2}}\\
-\frac{\partial O_{inl}}{\partial h2_{out3}} & \frac{\partial O_{in2}}{\partial h2_{out3}} & \frac{\partial O_{in3}}{\partial h2_{out3}} \\ \end{bmatrix}  =  \begin{bmatrix}
+\frac{\partial O_{inl}}{\partial h2_{out3}} & \frac{\partial O_{in2}}{\partial h2_{out3}} & \frac{\partial O_{in3}}{\partial h2_{out3}} \\ \end{bmatrix}  = " border="0"/> <img src="http://latex.codecogs.com/svg.latex?  \begin{bmatrix}
 W_{k1l1} & W_{k1l2} & W_{k1l3} \\
 W_{k2l1} & W_{k2l2} & W_{k2l3} \\
 W_{k3l1} & W_{k3l2} & W_{k3l3} \\ \end{bmatrix}  
@@ -462,7 +462,7 @@ W_{k3l1} & W_{k3l2} & W_{k3l3} \\ \end{bmatrix}
 \delta W_{jk} =  \begin{bmatrix}
 \frac{\partial E_{total}}{\partial W_{j1k1}} & \frac{\partial E_{total}}{\partial W_{j1k2}} & \frac{\partial E_{total}}{\partial W_{j1k3}} \\
 \frac{\partial E_{total}}{\partial W_{j2k1}} & \frac{\partial E_{total}}{\partial W_{j2k2}} & \frac{\partial E_{total}}{\partial W_{j2k3}} \\
-\frac{\partial E_{total}}{\partial W_{j3k1}} & \frac{\partial E_{total}}{\partial W_{j3k2}} & \frac{\partial E_{total}}{\partial W_{j3k3}} \\ \end{bmatrix}  =   \begin{bmatrix}
+\frac{\partial E_{total}}{\partial W_{j3k1}} & \frac{\partial E_{total}}{\partial W_{j3k2}} & \frac{\partial E_{total}}{\partial W_{j3k3}} \\ \end{bmatrix}  = " border="0"/> <img src="http://latex.codecogs.com/svg.latex? \begin{bmatrix}
 \frac{\partial E_{total}}{\partial h2_{out1}} * \frac{\partial h2_{out1}}{\partial h2_{in1}} * \frac{\partial h2_{in1}}{\partial W_{j1k1}} & \frac{\partial E_{total}}{\partial h2_{out2}} * \frac{\partial h2
 _{out2}}{\partial h2_{in2}} * \frac{\partial h2_{in2}}{\partial W_{j1k2}}& \frac{\partial E_{total}}{\partial h2_{out3}} * \frac{\partial h2
 _{out3}}{\partial h2_{in3}} * \frac{\partial h2_{in3}}{\partial W_{j1k3}} \\
@@ -635,7 +635,7 @@ _{out1}}{\partial h1_{in1}} * \frac{\partial h1_{in1}}{\partial W_{i2j1}}
 \delta W_{ij} =  \begin{bmatrix}
 \frac{\partial E_{total}}{\partial W_{i1j1}} & \frac{\partial E_{total}}{\partial W_{i1j2}} & \frac{\partial E_{total}}{\partial W_{i1j3}} \\
 \frac{\partial E_{total}}{\partial W_{i2j1}} & \frac{\partial E_{total}}{\partial W_{i2j2}} & \frac{\partial E_{total}}{\partial W_{i2j3}} \\
-\frac{\partial E_{total}}{\partial W_{i3j1}} & \frac{\partial E_{total}}{\partial W_{i3j2}} & \frac{\partial E_{total}}{\partial W_{i3j3}} \\ \end{bmatrix}  =   \begin{bmatrix}
+\frac{\partial E_{total}}{\partial W_{i3j1}} & \frac{\partial E_{total}}{\partial W_{i3j2}} & \frac{\partial E_{total}}{\partial W_{i3j3}} \\ \end{bmatrix}  = " border="0"/> <img src="http://latex.codecogs.com/svg.latex? \begin{bmatrix}
 \frac{\partial E_{total}}{\partial h1_{out1}} * \frac{\partial h1_{out1}}{\partial h1_{in1}} * \frac{\partial h1_{in1}}{\partial W_{i1j1}} & \frac{\partial E_{total}}{\partial h1_{out2}} * \frac{\partial h1
 _{out2}}{\partial h1_{in2}} * \frac{\partial h1_{in2}}{\partial W_{i1j2}}& \frac{\partial E_{total}}{\partial h1_{out3}} * \frac{\partial h1
 _{out3}}{\partial h1_{in3}} * \frac{\partial h1_{in3}}{\partial W_{i1j3}} \\
@@ -689,7 +689,7 @@ _{out3}}{\partial h1_{in3}} * \frac{\partial h1_{in3}}{\partial W_{i3j3}} \\ \en
 \delta W_{ij} =  \begin{bmatrix}
 \frac{\partial E_{total}}{\partial W_{i1j1}} & \frac{\partial E_{total}}{\partial W_{i1j2}} & \frac{\partial E_{total}}{\partial W_{i1j3}} \\
 \frac{\partial E_{total}}{\partial W_{i2j1}} & \frac{\partial E_{total}}{\partial W_{i2j2}} & \frac{\partial E_{total}}{\partial W_{i2j3}} \\
-\frac{\partial E_{total}}{\partial W_{i3j1}} & \frac{\partial E_{total}}{\partial W_{i3j2}} & \frac{\partial E_{total}}{\partial W_{i3j3}} \\ \end{bmatrix}  =   \begin{bmatrix}
+\frac{\partial E_{total}}{\partial W_{i3j1}} & \frac{\partial E_{total}}{\partial W_{i3j2}} & \frac{\partial E_{total}}{\partial W_{i3j3}} \\ \end{bmatrix}  = " border="0"/> <img src="http://latex.codecogs.com/svg.latex? \begin{bmatrix}
 \frac{\partial E_{total}}{\partial h1_{out1}} * \frac{\partial h1_{out1}}{\partial h1_{in1}} * \frac{\partial h1_{in1}}{\partial W_{i1j1}} & \frac{\partial E_{total}}{\partial h1_{out2}} * \frac{\partial h1
 _{out2}}{\partial h1_{in2}} * \frac{\partial h1_{in2}}{\partial W_{i1j2}}& \frac{\partial E_{total}}{\partial h1_{out3}} * \frac{\partial h1
 _{out3}}{\partial h1_{in3}} * \frac{\partial h1_{in3}}{\partial W_{i1j3}} \\
