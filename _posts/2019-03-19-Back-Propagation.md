@@ -4,6 +4,7 @@ title: Understanding Back Propagation
 date: 2019-03-19T00:00:00.000Z
 published: true
 categories: Deep Learning
+image: /images/ann/backpropagation_network.png
 read_time: true
 ---
 Backpropagation, short for "backward propagation of errors," is an algorithm for supervised learning of artificial neural networks using gradient descent. Given an artificial neural network and an error function, the method calculates the gradient of the error function with respect to the neural network's weights. It is a generalization of the delta rule for perceptrons to multilayer feedforward neural networks.
