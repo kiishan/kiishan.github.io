@@ -1,29 +1,30 @@
 ---
 layout: default
-published: true
+title: Portfolio
 ---
 
-{% include page-intro.html %}
-
-<main id="main" class="page-content" aria-label="Content">
-  <div class="index inner">
-    <div>{{ content }}</div>
-
-    <div>
-      <header class="section-title">
-        <h2>{{ site.data.theme.t.posts | default: 'Posts' }}{% if paginator.page > 1 %}{{ site.data.theme.t.page | default: 'Page' | prepend: ' - ' | append: ' ' }}{{ paginator.page }} {{ site.data.theme.t.of | default: 'of' }} {{ paginator.total_pages }}{% endif %}</h2>
-      </header>
-      <div class="entries">
-        {% if site.plugins contains 'jekyll-paginate' and page.paginate %}
-          {% comment %}
-            Add paginator.posts loop if jekyll-paginate plugin is enabled
-            and page.paginate == true
-          {% endcomment %}
-          {% include posts-paginated.html %}
-        {% else %}
-          {% include posts-all.html %}
-        {% endif %}
-      </div>
-    </div>
-  </div>
+<main id="portfolio">
+	<h1 class="page-header">Portfolio</h1>
+	<section>
+		<div id="portfolio-gallery">
+			{% for project in site.portfolio %}
+			<div class="container">
+				<div class="aspect-ratio-keeper"> </div>
+				<div class="content">
+					<a href="{{ site.baseurl }}{{ project.url }}">
+						<span class="link-spanner"></span>
+						<div class="image-container">
+							<div class="image-vertical-align-box" >
+								<img class="inner" src="{{ site.baseurl }}/{{ site.image_path }}/{{ project.image }}">
+							</div>
+						</div>
+						<div class="inner-text">
+							<h2>{{ project.title }}</h2>
+						</div>
+					</a>
+				</div>
+			</div>
+			{% endfor %}
+		</div>
+	</section>
 </main>
