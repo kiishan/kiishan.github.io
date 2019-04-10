@@ -1,7 +1,7 @@
 ---
 layout: home
 paginate: True
-sub_title: Projects.
+sub_title: Projects
 published: true
 ---
 
