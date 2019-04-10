@@ -1,8 +1,9 @@
 ---
-layout: project
-paginate: True
 title: Projects
-published: true
+layout: collection
+permalink: /projects/
+collection: projects
+entries_layout: grid
 ---
 
 ![](/images/projects.jpg)
