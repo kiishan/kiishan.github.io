@@ -6,7 +6,7 @@ published: true
 
 ## Summary  
 
-1+ year of experience in the field of business intelligence & data science with good understanding of Data and Machine Learning Algorithms, currently working as Software Developer. Proficient in Python & have good knowledge of Big Data ecosystem.
+Around 2 year of experience in the field of business intelligence & data science with good understanding of Data and Machine Learning Algorithms, currently working as Data Scientist at BDB Technologies Pvt Ltd. Proficient in Python & have good knowledge of Big Data ecosystem.
 
 ---
 ## Experience
@@ -46,10 +46,10 @@ __Project: Post Production Support & Development of Enterprise Data Warehouse (S
 ---
 ## Education
 
-### PG Diploma in Big Data Analytics | CDAC
+### PG Diploma in Big Data Analytics | Center for Development of Advance Computing
 2017 - 2017
   - Completed PG Diploma Course in Big Data Analytics with 75.38%
 
-### Bachelor of Technology | HMR Institute of Technology & Management
+### Bachelor of Technology | Guru Gobind Singh Indraprastha University
 2012 - 2016
   - Completed B. Tech in Computer Science Engineering with 67.36%
