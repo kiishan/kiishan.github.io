@@ -83,8 +83,3 @@ defaults:
     values:
       layout: post
       read_time: false
-
-collections:
-  portfolio:
-    output: true
-    permalink: /portfolio/:path/
