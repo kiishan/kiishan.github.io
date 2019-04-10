@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: home
 paginate: True
 title: Projects
 published: true
