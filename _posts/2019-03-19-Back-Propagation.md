@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Understanding Back Propagation
-date: {}
+date: 2019-03-19T00:00:00.000Z
 published: true
 categories: Deep Learning
 read_time: true
