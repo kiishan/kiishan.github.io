@@ -1,9 +1,8 @@
 ---
 title: 'Chat bots for customer service '
 image:
-  path: /assets/images/chocolate-chip-cookies-lg.jpg
-  thumbnail: /assets/images/chocolate-chip-cookies-400x200.jpg
-  caption: 'Photo from [Pexels](https://www.pexels.com)'
+  path: /assets/images/chatbot.jpg
+  thumbnail: /assets/images/chatbot4x2.jpg
 actions:
   - label: Code
     icon: github
