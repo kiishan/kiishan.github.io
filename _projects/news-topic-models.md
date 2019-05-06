@@ -3,6 +3,11 @@ title: "News Articles Topic Models"
 image: 
   path: /assets/images/pyLDAvis.png
   thumbnail: /assets/images/pyLDAvis4x2.png
+actions:
+  - label: Code
+    icon: github
+    url: ''
+published: true
 ---
 
 We live in a world where streams of data are continuously collected. Searching for insights from the collected information can therefore become very tedious and time-consuming. Topic modeling was designed as a tool to organize, search, and understand vast quantities of textual information.
