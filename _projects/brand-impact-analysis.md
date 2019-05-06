@@ -3,6 +3,11 @@ title: "Brand Impact Analysis | Deep Learning (Computer Vision)"
 image: 
   path: /assets/images/Bia.JPG
   thumbnail: /assets/images/Bia4x2.JPG
+actions:
+  - label: Code
+    icon: github
+    url: ''
+published: true
 ---
 
 Logo Detection and brand recognition in live sports event to generate statistics for brand impact analysis.
