@@ -1,9 +1,8 @@
 ---
 title: "Brand Impact Analysis | Deep Learning (Computer Vision)"
 image: 
-  path: /assets/images/oatmeal-cookies-lg.jpg
-  thumbnail: /assets/images/oatmeal-cookies-400x200.jpg
-  caption: "Photo from [Pexels](https://www.pexels.com)"
+  path: /assets/images/Bia.JPG
+  thumbnail: /assets/images/Bia4x2.JPG
 ---
 
 Logo Detection and brand recognition in live sports event to generate statistics for brand impact analysis.
