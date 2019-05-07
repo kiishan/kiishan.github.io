@@ -1,8 +1,8 @@
 ---
-title: "Brand Impact Analysis | Deep Learning (Computer Vision)"
+title: "Brand Impact Analysis - Deep Learning (Computer Vision)"
 image: 
-  path: /assets/images/Bia.JPG
-  thumbnail: /assets/images/Bia4x2.JPG
+  path: /assets/images/BIA.png
+  thumbnail: /assets/images/BIA4x2.png
 actions:
   - label: Code
     icon: github
