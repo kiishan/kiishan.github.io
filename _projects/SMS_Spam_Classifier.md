@@ -1,5 +1,14 @@
-
-# SMS Spam Classifcation
+---
+title: "SMS Spam Classifcation - Machine Learning"
+image: 
+  path: /assets/images/SMS_spam.jpg
+  thumbnail: /assets/images/SMS_spam4x2.jpg
+actions:
+  - label: Code
+    icon: github
+    url: 'https://github.com/kiishan/sms_spam_classifier'
+published: true
+---
 
 **Context**
 
