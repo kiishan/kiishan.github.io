@@ -2,7 +2,7 @@
 layout: home
 paginate: false
 sub_title: Data Scientist @ Bangalore.
-image: /images/data_science.jpg
+image: /images/data_science.png
 published: true
 ---
 
